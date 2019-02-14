@@ -107,5 +107,7 @@ Rakefile:
   puppet_strings_patterns: []
 spec/spec_helper.rb:
   mock_with: ':rspec'
+spec/spec_helper.rb:
+  strict_level: ":warning"
 ...
 # vim: syntax=yaml
